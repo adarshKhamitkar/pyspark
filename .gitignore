@@ -1,6 +1,30 @@
+# Python
 .venv/
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
 .DS_Store
 .vscode/
+.idea/
+
+# Testing
 .pytest_cache/
-.pytest_cache/
+
+# Docker
+.env
+docker-compose.override.yml
+
+# Logs
+logs/
+*.log
+
+# Output
+src/resources/output/*
+!src/resources/output/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
